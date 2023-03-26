@@ -1,8 +1,25 @@
 .page {
+  position: relative;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1280px;
   font-family: "Inter", "Arial", sans-serif;
+  border-color: aqua;
 }
+
+/* * {
+  border: solid red 1px;
+}
+
+* div {
+  border: solid lime 1px;
+} */
+
+/* @media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+
+} */
