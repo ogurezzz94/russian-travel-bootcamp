@@ -9,13 +9,13 @@
   border-color: aqua;
 }
 
-/* * {
+* {
   border: solid red 1px;
 }
 
 * div {
   border: solid lime 1px;
-} */
+}
 
 /* @media screen and (max-width: 768px) {
   .page {
