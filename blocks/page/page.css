@@ -6,16 +6,8 @@
   align-items: center;
   max-width: 1280px;
   font-family: "Inter", "Arial", sans-serif;
-  border-color: aqua;
+  /* border-color: aqua; */
 }
-
-/* * {
-  border: solid red 1px;
-}
-
-* div {
-  border: solid lime 1px;
-} */
 
 /* @media screen and (max-width: 768px) {
   .page {

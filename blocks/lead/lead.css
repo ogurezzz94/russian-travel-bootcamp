@@ -56,19 +56,24 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .lead {
     padding: 20px 48px 46px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead {
     padding: 20px 0 44px;
   }
 }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding: 32px 0;
+  }
+
   .lead__title {
     width: 288px;
     font-size: 40px;
@@ -78,11 +83,5 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    padding: 32px 0;
   }
 }

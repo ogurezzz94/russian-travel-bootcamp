@@ -1,3 +1,93 @@
 .intro {
+  /* padding: 46px 442px 46px 148px; */
+  padding: 46px 148px;
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.intro__title {
+  margin: 0;
+  text-align: left;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  /* identical to box height, or 107% */
+  color: #ffffff;
+}
+
+.intro__text {
+  margin: 40px 0 33px;
+  max-width: 690px;
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+
+  color: #ffffff;
+}
+
+.intro__list {
+  list-style: none;
+  padding: 0;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  color: #ffffff;
+}
+
+.intro__list__item-light {
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    /* padding: 46px 286px 46px 48px; */
+    padding: 46px 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 44px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 32px 0;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    /* or 109% */
+  }
+  .intro__text {
+    margin-bottom: 34px;
+  }
+
 
 }
+
+/* font-size: 16px;
+line-height: 163%;
+or 26px
+}
+
+.intro__list {
+font-size: 12px;
+line-height: 18px;
+or 150% */

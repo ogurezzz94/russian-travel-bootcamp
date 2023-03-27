@@ -89,28 +89,21 @@
   width: 100%;
 } */
 
-.helper {
-  height: 1000px;
-  width: 100px;
-  color: rebeccapurple;
-  background-color: sandybrown;
-  margin: 0 auto;
-}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover {
     padding: 46px 0;
   }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cover {
     padding: 45px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover {
     padding: 33px 0 32px;
   }
@@ -131,10 +124,6 @@
     height: 48px;
     font-size: 14px;
     line-height: 16px;
-  }
-
-  .helper {
-    background-color: black;
   }
 
 }
