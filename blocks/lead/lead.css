@@ -68,35 +68,21 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .lead__title {
+    width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead {
     padding: 32px 0;
   }
-
-  .lead__title {
-    width: 288px;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 44px;
-
-
-text-align: center;
-
-color: #FFFFFF;
-  }
-
-  .lead__subtitle {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;;
-
-    text-align: center;
-
-    color: #FFFFFF;
-  }
-
 }
