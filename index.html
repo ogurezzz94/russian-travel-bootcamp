@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="pages/inbox.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="images/logo/android-chrome-192x192.png" >
+  <link rel="icon" type="image/png" href="images/logo/android-chrome-192x192.png">
   <title>Путешествия по России</title>
 </head>
 <body>
@@ -30,16 +30,14 @@
 
     </header>
 
-    <main class="content">
-
-      <section class="lead">
+      <header class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
         <img class="lead__image" src="images/lead-polka.jpg" alt="Плацкарт">
         <p class="lead__caption">ВАША ПОЛКА &mdash; ВЕРХНЯЯ</p>
-      </section>
+      </header>
 
-      <section class="intro">
+      <article class="intro" aria-label="Статистика">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
@@ -59,9 +57,9 @@
             Аэропортов <span class="intro__list__item-light">241</span>
           </li>
         </ul>
-      </section>
+      </article>
 
-      <section class="photo-grid" aria-label="Галлерея">
+      <article class="photo-grid" aria-label="Галлерея">
         <img src="images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
         <img src="images/photo-grid-atharva-tulsi.jpg" alt="Горы в облаках" class="photo-grid__item">
         <img src="images/photo-grid-tuman.jpg" alt="Стога в тумане" class="photo-grid__item">
@@ -74,9 +72,12 @@
         <img src="images/photo-grid-kamchatka-2.jpg" alt="Камчатские просторы" class="photo-grid__item">
         <img src="images/photo-grid-baikal-2.jpg" alt="Высокий берег Байкала" class="photo-grid__item">
         <img src="images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
-      </section>
+      </article>
 
-      <section class="cover">
+      <main class="places">
+      </main>
+
+      <article class="cover" aria-label="Книга">
 
         <a href="" class="cover__link">
           <img src="images/cover-trains.jpg" alt="Сортировочная" class="cover__background">
@@ -86,9 +87,7 @@
           </div>
         </a>
 
-      </section>
-
-    </main>
+      </article>
 
 
 

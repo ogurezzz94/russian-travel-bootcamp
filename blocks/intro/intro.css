@@ -1,10 +1,12 @@
 .intro {
   /* padding: 46px 442px 46px 148px; */
+  width: 100%;
   padding: 46px 148px;
   background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  box-sizing: border-box;
 }
 
 .intro__title {
