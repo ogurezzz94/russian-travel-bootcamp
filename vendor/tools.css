@@ -1,12 +1,13 @@
-* {
+/* * {
   border: 1px solid red;
 }
 
 * div {
   border: 1px solid lightgreen;
-}
+} */
 
 .helper {
+  /* position: sticky; */
   margin: 0 auto;
   height: 80px;
   width: 100%;
@@ -31,13 +32,14 @@
   color: white;
   margin: 0;
   font-size: 50px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 100px;
   font-size: 3em;
   left: 0;
   right: 0;
-  opacity: 20%
+  opacity: 20%;
+  -webkit-text-stroke: 1px black;
 }
 
 .helper__title::after {
