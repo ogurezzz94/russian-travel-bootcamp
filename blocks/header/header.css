@@ -1,20 +1,25 @@
 .header {
-  padding: 28px 48px;
+  max-width: 1280px;
   width: 100%;
   box-sizing: border-box;
-  background-color: #2a2c2f;
+  padding: 28px 48px;
+
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
+  background-color: #2a2c2f;
 }
 
 
 .header__languages {
-  list-style-type: none;
   padding: 0;
   margin: 0;
+
   display: flex;
-  gap: 18px
+  gap: 18px;
+
+  list-style-type: none;
 }
 
 .header__lang-link {

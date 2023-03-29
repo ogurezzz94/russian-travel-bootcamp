@@ -1,17 +1,10 @@
 .page {
   position: relative;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1280px;
   font-family: "Inter", "Arial", sans-serif;
-  /* border-color: aqua; */
+  /* background-color: red; */
+  /* background-color: #2a2c2f; */
 }
-
-/* @media screen and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
-
-} */
