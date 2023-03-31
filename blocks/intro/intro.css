@@ -11,7 +11,7 @@
   background-color: #2a2c2f;
 }
 
-.intro__title {
+/* .intro__title {
   margin: 0;
   text-align: left;
 
@@ -20,11 +20,11 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  /* identical to box height, or 107% */
-  color: #ffffff;
-}
 
-.intro__text {
+  color: #ffffff;
+} */
+
+/* .intro__text {
   max-width: 690px;
   margin: 0;
   padding: 40px 0 33px;
@@ -35,12 +35,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  /* or 26px */
+
 
   color: #ffffff;
-}
+} */
 
-.intro__list {
+/* .intro__list {
   margin: 0;
   padding: 0;
 
@@ -50,14 +50,14 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
+
 
   color: #ffffff;
-}
+} */
 
-.intro__list__item-light {
+/* .intro__span-accent {
   font-weight: normal;
-}
+} */
 
 @media screen and (max-width: 1279px) {
   .intro {
@@ -76,12 +76,13 @@
     padding: 32px 16px;
   }
 
-  .intro__title {
+  /* .intro__title {
     font-size: 32px;
     line-height: 35px;
-    /* or 109% */
-  }
-  .intro__text {
+
+  } */
+
+  /* .intro__text {
     padding-bottom: 34px;
-  }
+  } */
 }

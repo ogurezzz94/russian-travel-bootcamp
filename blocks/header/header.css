@@ -11,7 +11,7 @@
   background-color: #2a2c2f;
 }
 
-.header__languages {
+/* .header__languages {
   padding: 0;
   margin: 0;
 
@@ -19,15 +19,15 @@
   gap: 18px;
 
   list-style-type: none;
-}
+} */
 
-.header__lang-link {
+/* .header__lang-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height, or 117% */
+
   text-align: right;
   color: white;
   text-decoration: none;
@@ -35,7 +35,7 @@
 
 .header__lang-link:hover {
   text-decoration: underline;
-}
+} */
 
 @media screen and (max-width: 1279px) {
   .header {
@@ -47,7 +47,6 @@
   .header {
     padding: 28px 24px 24px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -56,13 +55,13 @@
     /* align-items: center; */
   }
 
-  .header__logo {
+  /* .header__logo {
     width: 142px;
     height: 42px;
-  }
+  } */
 
-  .header__lang-link {
+  /* .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-  }
+  } */
 }
