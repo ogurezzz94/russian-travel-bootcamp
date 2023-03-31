@@ -1,7 +1,7 @@
 .lead {
-  max-width: 1280px;
-  box-sizing: border-box;
+  /* max-width: 1280px; */
   padding: 28px 148px 46px;
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
@@ -28,7 +28,8 @@
 
 .lead__subtitle {
   max-width: 640px;
-  margin: 32px 0;
+  margin: 0;
+  padding: 32px 0 64px;
 
   font-family: "Inter";
   font-style: normal;
@@ -46,7 +47,8 @@
 }
 
 .lead__caption {
-  margin: 8px 0 0;
+  margin: 0;
+  padding: 8px 0 0;
   align-self: flex-start;
 
   font-family: "Inter";
@@ -62,30 +64,43 @@
 
 @media screen and (max-width: 1279px) {
   .lead {
-    padding: 20px 48px 46px;
+    padding: 24px 48px 46px;
+  }
+
+  .lead__subtitle {
+    padding-bottom: 56px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
-    padding: 20px 0 44px;
+    padding: 24px 0 44px;
+  }
+
+  .lead__caption {
+    padding: 8px 24px 0;
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .lead {
-    padding: 32px 0;
+    padding: 24px 0 32px;
   }
 
   .lead__title {
+    padding: 0 16px 0;
     width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
 
   .lead__subtitle {
+    padding: 16px 16px 40px;
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .lead__caption {
+    padding: 8px 16px 0;
   }
 }

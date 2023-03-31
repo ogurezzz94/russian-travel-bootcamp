@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/variables.css);
-@import url(../vendor/tools.css);
+
 
 @import url(../fonts/Inter/inter.css);
 
@@ -23,3 +23,6 @@
 @import url(../blocks/cover/cover.css);
 
 @import url(../blocks/footer/footer.css);
+
+
+@import url(../vendor/tools.css);

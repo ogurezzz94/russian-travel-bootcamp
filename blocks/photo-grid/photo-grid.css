@@ -6,7 +6,6 @@
   display: grid;
   gap: 16px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
 
   background-color: #2a2c2f;
 }
