@@ -1,102 +1,15 @@
 .cover {
-  /* margin: 0 auto; */
-  /* position: relative; */
   max-width: 1280px;
   box-sizing: border-box;
   padding: 46px;
 
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-
   background-color: #2a2c2f;
 }
-
-.cover__link {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cover__background {
-  opacity: 0.8;
-  width: 100%;
-  transition: 1s;
-  line-height: 0;
-}
-
-.cover__link:hover .cover__background {
-  opacity: 0.2;
-}
-
-.cover__overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  /* 26px гап больше похож на макет по пп*/
-  gap: 34px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.cover__title {
-  padding: 0;
-  margin: 0;
-  width: 512px;
-  height: 162px;
-
-  color: white;
-  text-align: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  /* or 106% */
-}
-
-.cover__subtitle {
-  padding: 0;
-  margin: 0;
-  width: 360px;
-  height: 66px;
-
-  color: white;
-  text-align: center;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
-}
-
-/* .cover__link__background::after {
-    content: "hello";
-    width: 100px;
-    height: 100px;
-    background-color: rebeccapurple;
-    border: 1px solid black;
-
-  z-index: 2;
-  content: '';
-  display: block;
-  height: 100px;
-  width: 100px;
-  color: red;
-  height: 100%;
-  width: 100%;
-} */
-
 
 @media screen and (max-width: 1279px) {
   .cover {
     padding: 46px 0;
   }
-
 }
 
 @media screen and (max-width: 1023px) {
@@ -109,23 +22,4 @@
   .cover {
     padding: 33px 0 32px;
   }
-
-  .cover__overlay {
-    gap: 16px;
-  }
-
-  .cover__title {
-    width: 288px;
-    height: 70px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .cover__subtitle {
-    width: 288px;
-    height: 48px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-
 }

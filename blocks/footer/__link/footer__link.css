@@ -1,3 +1,25 @@
 .footer__link {
+  margin: 0;
 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.8s;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+  }
 }

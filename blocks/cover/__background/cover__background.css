@@ -1,3 +1,10 @@
 .cover__background {
+  opacity: 0.8;
+  width: 100%;
+  transition: 1s;
+  line-height: 0;
+}
 
+.cover__link:hover .cover__background {
+  opacity: 0.2;
 }
