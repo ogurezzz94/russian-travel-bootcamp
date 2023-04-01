@@ -1,12 +1,9 @@
 .place {
-  /* max-width: 984px; */
-
   display: grid;
   grid-template-columns: 460px auto;
   grid-template-rows: min-content auto;
   gap: 48px 40px;
-  /* align-items: start;
-  justify-items: start; */
+
   background-color: #2a2c2f;
 }
 

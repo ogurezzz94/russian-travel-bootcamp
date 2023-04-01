@@ -10,105 +10,10 @@
   background-color: #2a2c2f;
 }
 
-/* .place {
-
-  display: grid;
-  grid-template-columns: 460px auto;
-  grid-template-rows: min-content auto;
-  gap: 48px 40px;
-
-  background-color: #2a2c2f;
-} */
-
-/* .place__title {
-  margin: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-
-  color: #ffffff;
-} */
-
-/* .place__website {
-  align-self: flex-end;
-
-  display: flex;
-  flex-direction: column;
-  justify-items: flex-end;
-  align-items: flex-start;
-  gap: 12px;
-} */
-
-/* .place__link {
-  margin: 0;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-
-  text-decoration-line: underline;
-
-  color: #ffffff;
-  transition: 0.8s;
-}
-
-.place__link:hover {
-  opacity: 0.8;
-} */
-
-/* .place__url-heading {
-  margin: 0;
-  text-transform: uppercase;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-
-  letter-spacing: 2px;
-
-  color: #aaaaaa;
-} */
-
-/* .place__image {
-  width: 100%;
-  line-height: 0;
-} */
-
-/* .place__paragraphes {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 26px;
-} */
-
-/* .place__paragraph {
-  margin: 0;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
-
-  color: #ffffff;
-} */
-
 @media screen and (max-width: 1279px) {
   .places {
     padding: 46px 48px;
   }
-
-  /* .place {
-    grid-template-columns: 440px auto;
-    gap: 48px 32px;
-  } */
 }
 
 @media screen and (max-width: 1023px) {
@@ -116,25 +21,6 @@
     padding: 44px 24px;
     gap: 73px;
   }
-
-  /* .place {
-    grid-template-columns: 340px auto;
-    gap: 48px 28px;
-  } */
-
-  /* .place__title {
-    font-size: 42px;
-    line-height: 46px;
-  } */
-
-  /* .place__paragraphes {
-    gap: 25px;
-  } */
-
-  /* .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  } */
 }
 
 @media screen and (max-width: 767px) {
@@ -142,25 +28,4 @@
     padding: 32px 0;
     gap: 50px;
   }
-
-  /* .place {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  } */
-
-  /* .place__title {
-    padding: 0 16px;
-    font-size: 32px;
-    line-height: 35px;
-  } */
-
-  /* .place__website {
-    padding: 0 16px;
-    align-self: flex-start;
-  } */
-
-  /* .place__paragraph {
-    padding: 0 16px;
-  } */
 }
