@@ -9,7 +9,6 @@
   background-color: #2a2c2f;
 
   text-rendering: optimizeSpeed;
-  font-smooth: auto;
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
