@@ -15,7 +15,7 @@
     <header class="header">
       <img src="images/logo/header-logo.svg" alt="Россия" class="header__logo">
         <ul class="header__languages">
-          <li><a href="#" class="header__lang-link">Ru</a></li>
+          <li><a href="#" class="header__lang-link header__lang-link_selector">Ru</a></li>
           <li><a href="#" class="header__lang-link">En</a></li>
         </ul>
     </header>
@@ -60,7 +60,7 @@
         </ul>
       </section>
 
-      <div class="photo-grid">
+      <section class="photo-grid" aria-label="Галлерея">
         <img src="images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
         <img src="images/photo-grid-atharva-tulsi.jpg" alt="Горы в облаках" class="photo-grid__item">
         <img src="images/photo-grid-tuman.jpg" alt="Стога в тумане" class="photo-grid__item">
@@ -73,10 +73,10 @@
         <img src="images/photo-grid-kamchatka-2.jpg" alt="Камчатские просторы" class="photo-grid__item">
         <img src="images/photo-grid-baikal-2.jpg" alt="Высокий берег Байкала" class="photo-grid__item">
         <img src="images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
-      </div>
+      </section>
 
-      <section class="places">
-        <div class="place">
+      <section class="places" aria-label="Статьи">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -96,9 +96,9 @@
               окуная в спокойствие природы и запах стального, прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -120,9 +120,9 @@
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -142,9 +142,9 @@
               а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -162,9 +162,9 @@
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -182,17 +182,14 @@
               Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
-          <img src="images/cover-trains.jpg" alt="Сортировочная" class="cover__background">
-          <div class="cover__overlay">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          </div>
+          <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>
 

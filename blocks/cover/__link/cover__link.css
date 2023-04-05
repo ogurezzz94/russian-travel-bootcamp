@@ -1,6 +1,41 @@
 .cover__link {
+  width: 100%;
+  aspect-ratio: 1184 / 740;
+
+  /* вариант альтернативной записи
+    width: 100%;
+  height: 0;
+  padding-bottom: calc(740 / 1184 * 100%); */
+
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 34px;
+
+  text-decoration: none;
+  background-image: url(../../../images/cover-trains.jpg);
+  /* в зависимости от специфики блока можно так же использовать contain */
+  background-size: 100%;
+}
+
+
+.cover__link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f4d;
+  transition: 0.2s;
+}
+
+.cover__link:hover::after {
+  background-color: #2a2c2fcc;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    gap: 16px;
+  }
 }

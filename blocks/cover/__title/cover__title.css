@@ -1,12 +1,14 @@
 .cover__title {
+  z-index: 1;
   padding: 0;
   margin: 0;
-  width: 512px;
+  width: 100%;
+  max-width: 512px;
   /* height: 162px; */
 
   color: white;
   text-align: center;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -18,7 +20,7 @@
   .cover__title {
     max-width: 270px;
     /* height: 70px; */
-    font-size: 34px;
+    font-size: 32px;
     line-height: 35px;
   }
 }
