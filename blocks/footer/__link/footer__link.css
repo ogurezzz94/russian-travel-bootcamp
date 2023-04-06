@@ -9,11 +9,12 @@
   /* identical to box height, or 112% */
   text-decoration: none;
   color: #ffffff;
-  transition: 0.8s;
+  transition: opacity 0.2s, color 20s;
 }
 
 .footer__link:hover {
   opacity: 0.8;
+  color: red;
 }
 
 @media screen and (max-width: 767px) {
