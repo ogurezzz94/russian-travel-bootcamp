@@ -26,7 +26,7 @@
   width: 100%;
   height: 100%;
   background-color: #2a2c2f4d;
-  transition: opacity 0.2s;
+  transition: 0.2s;
 }
 
 .cover__link:hover::after {
